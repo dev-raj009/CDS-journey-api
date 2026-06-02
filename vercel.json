@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "routes": [
+    { "src": "/all-batches",                    "dest": "/api/all-batches.js"   },
+    { "src": "/subjects/(?<courseId>[^/]+)",    "dest": "/api/subjects.js?courseId=$courseId" },
+    { "src": "/subject/content/(?<contentId>[^/]+)", "dest": "/api/content.js?contentId=$contentId" },
+    { "src": "/",                               "dest": "/api/index.js"         }
+  ]
+}

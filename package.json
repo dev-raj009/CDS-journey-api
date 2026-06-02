@@ -1,0 +1,12 @@
+{
+  "name": "cds-study-api",
+  "version": "1.0.0",
+  "description": "CDS / NDA / AFCAT / CAPF Study Content REST API — Vercel Serverless",
+  "private": true,
+  "engines": {
+    "node": "18.x"
+  },
+  "scripts": {
+    "dev": "vercel dev"
+  }
+}
